@@ -1279,6 +1279,9 @@ void CEE_testtool_hidusbDlg::OnEnChangeEditEehkadd()//HardCheck addr Update
 //	m_StatusBar.SetPaneText(2, "EE HardCheck addr(2Bytes):" + m_str_editHK);
 //}
 
+//
+//
+
 
 void CEE_testtool_hidusbDlg::OnEnChangeEditEehkEdata()//HardCheck data Update
 {
