@@ -445,7 +445,7 @@ void CEE_testtool_hidusbDlg::OnGetMinMaxInfo(MINMAXINFO* lpMMI)
 
 void CEE_testtool_hidusbDlg::Resize()
 {
-	float fsp[2];
+	/*float fsp[2];
 	POINT Newp; //获取现在对话框的大小  
 	CRect recta;
 	GetClientRect(&recta);     //取客户区大小    
@@ -472,7 +472,7 @@ void CEE_testtool_hidusbDlg::Resize()
 		GetDlgItem(woc)->MoveWindow(Rect, TRUE);
 		hwndChild = ::GetWindow(hwndChild, GW_HWNDNEXT);
 	}
-	old = Newp;
+	old = Newp;*/
 }
 
 void CEE_testtool_hidusbDlg::OnBnClickedButtonEetestOpenFile()
@@ -1278,6 +1278,9 @@ void CEE_testtool_hidusbDlg::OnEnChangeEditEehkadd()//HardCheck addr Update
 //	UpdateData(TRUE);
 //	m_StatusBar.SetPaneText(2, "EE HardCheck addr(2Bytes):" + m_str_editHK);
 //}
+
+//
+//
 
 
 void CEE_testtool_hidusbDlg::OnEnChangeEditEehkEdata()//HardCheck data Update
